@@ -22,3 +22,18 @@ STEPS:
  * Task 5:
  * call this overridden method from obj of class B
  */
+Class A{
+String meth()
+{
+}
+}
+Class B extends A{
+String meth()
+{
+}
+}
+public static void main()
+{
+B obj= new B();
+obj.meth();
+}
